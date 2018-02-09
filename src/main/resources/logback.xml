@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="false">
+    <include resource="includedLogback.xml"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="infoAppender"/>
+        <appender-ref ref="errorAppender"/>
+    </root>
+
+    <!--<root level="DEBUG">-->
+        <!--<appender-ref ref="STDOUT"/>-->
+        <!--<appender-ref ref="infoAppender"/>-->
+        <!--<appender-ref ref="errorAppender"/>-->
+    <!--</root>-->
+
+</configuration>
